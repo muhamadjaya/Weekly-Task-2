@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  margin-top: 7rem;
+  text-align: justify;
+  margin-bottom: 3rem;
+}
+
+.task-images {
+  width: 100%;
+}
+
+.task-img {
+  width: 100%;
+}
+
+.list-paragraph {
+  margin-bottom: 0.4rem;
+}
+
+.list-paragraph-bootstrap,
+.list-paragraph-clean-code {
+  font-weight: normal;
+  list-style: disc outside;
+}
