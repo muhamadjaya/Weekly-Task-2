@@ -7,11 +7,13 @@ const JavascriptPage = () => {
   return (
     <>
       <div className="container">
-        <h2>8 Javascript Refreshment</h2>
+        <h2 className="head-title">8 Javascript Refreshment</h2>
         <h3 className="pt-3">Resume</h3>
         <p>Dalam materi ini, mempelajari:</p>
         <ol>
-          <li>Pengertian Javascript dan Alasan Untuk Mempelajarinya.</li>
+          <li className="list-content">
+            Pengertian Javascript dan Alasan Untuk Mempelajarinya.
+          </li>
           <div className="paragraph-content">
             Javascript adalah bahasa pemrograman yang high-level, scripting,
             untyped dan interpreted. Terdapat beberapa alasan untuk mempelajari
@@ -20,7 +22,9 @@ const JavascriptPage = () => {
             berpengaruh pada tipe data, dan bahasanya fleksibel dan mudah untuk
             diuji.
           </div>
-          <li>Declaration Declaration dan Scope pada Javascript.</li>
+          <li className="list-content">
+            Declaration dan Scope pada Javascript.
+          </li>
           <div className="paragraph-content">
             Declaration adalah proses pembuatan variabel untuk menyimpan data.
             Variabel ada 3 : var (umumnya, kita jarang memakai ini), let
@@ -41,7 +45,7 @@ const JavascriptPage = () => {
             function itu sendiri), dan Block (hanya dapat diakses oleh bagian
             block tersebut)
           </div>
-          <li>Function dan Class.</li>
+          <li className="list-content">Function dan Class.</li>
           <div className="paragraph-content">
             Function di dalam javascript adalah sebuah objek. Karena memiliki
             properti dan method. Function digunakan untuk melakukan serangkaian
@@ -52,29 +56,50 @@ const JavascriptPage = () => {
 
         <h3 className="pt-3">Task</h3>
         <ol>
-          <li>
+          <li className="list-content">
+            Membuat kode program yang sesuai dengan ketentuan.
+          </li>
+          <div className="paragraph-content">
             Mengambil index ke 2 di dalam array kemudian menampilkannya pada
             console. Mengubah kode sehingga menampilkan statement yang terdapat
             pada block if. Memanggil sebuah fungsi yang telah dideklarasikan.
             Mengubah kode sehingga menampilkan output yang sesuai ketentuan.
-          </li>
-          <li>
+          </div>
+          <li className="list-content">Menjelaskan suatu kode program.</li>
+          <div className="paragraph-content">
             Menjelaskan kenapa block if tidak dapat tampil. Menjelaskan kenapa
             kode pada baris 26 dapat menyebabkan error. Menjelaskan jika kode
             pada baris 26 diberi komentar apakah baris 28 dapat dijalankan.
-          </li>
-          <li>
+          </div>
+          <li className="list-content">Destructuring suatu kode program.</li>
+          <div className="paragraph-content">
             Melakukan destructuring pada sebuah variabel yang bertipe array.
+          </div>
+          <li className="list-content">
+            Mengkonversi value dari suatu variable.
           </li>
-          <li>
+          <div className="paragraph-content">
             Mengubah karakter yang terdapat pada nilai dari sebuah variabel.
+          </div>
+          <li className="list-content">
+            Mengambil dan mengalikan nilai array.
           </li>
-          <li>Melakukan perkalian pada setiap elemen array.</li>
-          <li>Membulatkan nilai pada sebuah array.</li>
+          <div className="paragraph-content">
+            Memanfaatkan built-in function javascript.
+          </div>
+          <li className="list-content">
+            Mengambil dan mengalikan nilai array.
+          </li>
+          <div className="paragraph-content">
+            Membulatkan nilai pada sebuah array.
+          </div>
         </ol>
 
         <h3 className="pt-3">Link :</h3>
-        <a href="https://github.com/muhamadjaya/tugas-section8-javascript.git">
+        <a
+          href="https://github.com/muhamadjaya/tugas-section8-javascript.git"
+          className="link-task"
+        >
           Javascript Refreshment
         </a>
 

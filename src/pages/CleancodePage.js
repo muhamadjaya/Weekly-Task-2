@@ -7,24 +7,24 @@ const CleancodePage = () => {
   return (
     <>
       <div className="container">
-        <h2>9 Clean Code</h2>
+        <h2 className="head-title">9 Clean Code</h2>
         <h3 className="pt-3">Resume</h3>
         <p>Dalam materi ini, mempelajari:</p>
         <ol>
-          <li>Pengertian Clean Code.</li>
+          <li className="list-content">Pengertian Clean Code.</li>
           <div className="paragraph-content">
             Clean Code adalah istilah untuk kode yang mudah dibaca, difahami dan
             diubah oleh programmer. Alasan kenapa clean code harus diterapkan :
             Work Collaboration, Feature Development, dan Faster Development.
           </div>
-          <li>Karakteristik Clean Code.</li>
+          <li className="list-content">Karakteristik Clean Code.</li>
           <div className="paragraph-content">
             Terdapat beberapa karakteristik dari clean code, yaitu : mudah
             difahami, mudah dieja dan dicari, singkat namun mendeskripsikan
             konteks, konsisten, hindari penambahan konteks yang tidak perlu,
             komentar, good function, gGunakan konvensi, dan formatting.
           </div>
-          <li>Prinsip-Prinsip Clean Code.</li>
+          <li className="list-content">Prinsip-Prinsip Clean Code.</li>
           <div className="paragraph-content">
             Beberapa prinsip yang diterapkan pada clean code, seperti :
             <ul>
@@ -44,7 +44,7 @@ const CleancodePage = () => {
 
         <h3 className="pt-3">Task</h3>
         <ol>
-          <li>Melakukan Analysis dan Rewrite Code.</li>
+          <li className="list-content">Melakukan Analysis dan Rewrite Code.</li>
           <div className="paragraph-content">
             Pada task ini, ditugaskan untuk menganalisis terhadap kesalahan
             penulisan yang terdapat pada suatu kode dan menulis ulang kode
@@ -53,7 +53,10 @@ const CleancodePage = () => {
         </ol>
 
         <h3 className="pt-3">Link :</h3>
-        <a href="https://github.com/muhamadjaya/tugas-section9-clean-code.git">
+        <a
+          href="https://github.com/muhamadjaya/tugas-section9-clean-code.git"
+          className="link-task"
+        >
           Clean Code
         </a>
 

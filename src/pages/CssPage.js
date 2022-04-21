@@ -7,11 +7,11 @@ const CssPage = () => {
   return (
     <>
       <div className="container">
-        <h2>6 CSS</h2>
+        <h2 className="head-title">6 CSS</h2>
         <h3 className="pt-3">Resume</h3>
         <p>Dalam materi ini, mempelajari:</p>
         <ol>
-          <li>Pengertian CSS serta fungsinya.</li>
+          <li className="list-content">Pengertian CSS serta fungsinya.</li>
           <div className="paragraph-content">
             CSS adalah kependekan dari Cascading Style Sheet. CSS adalah suatu
             kode pemrograman yang berfungsi untuk mendekorasi gaya tampilan
@@ -21,46 +21,12 @@ const CssPage = () => {
             posisi pada halaman web. (Misalnya mengatur float, align, display,
             position, dan lainnya), dan lain-lain.
           </div>
-          <li>Menambahkan file CSS.</li>
+          <li className="list-content">Menambahkan file CSS.</li>
           <div className="paragraph-content">
             Terdapat 3 cara untuk menambahkan file CSS ke dalam HTML, yaitu :
-            <ol>
-              <li className="list-paragraph">
-                External CSS Contoh penulisan syntax external CSS :
-              </li>
-              <code className="paragraph-content">
-                &lt;link rel=&quot;stylesheet&quot; href=&quot;main.css&quot;
-                &gt;
-              </code>
-              <p className="css-content-point2">
-                Syntax tersebut disisipkan kedalam tag &lt;head&gt; pada HTML.
-                Dan ekstensi untuk file CSS adalah .css.
-              </p>
-              <li className="list-paragraph">
-                Internal CSS Contoh penulisan internal CSS :
-              </li>
-              <code className="paragraph-content">
-                &lt;style&gt; body &#10100; background-color: #FFFFFF; &#10101;
-                h1 &#10100; color: #f47523; margin-left: 70px; &#10101;
-              </code>
-              <p className="css-content-point2">
-                Syntax ini dapat digunakan di dalam satu file HTML.
-                Didefinisikan di dalam elemen &lt;style&gt;, di dalam bagian
-                &lt;head&gt; atau di dalam bagian &lt;body&gt;.
-              </p>
-              <li className="list-paragraph">
-                Inline CSS Contoh penulisan inline CSS :
-              </li>
-              <code className="paragraph-content">
-                &lt;h1 style=&quot;color: #19355f;&quot;Hello World&lt;/h1&gt;
-              </code>
-              <p className="css-content-point2">
-                Syntax tersebut disisipkan kedalam tag &lt;head&gt; pada HTML.
-                Dan ekstensi untuk file CSS adalah .css.
-              </p>
-            </ol>
+            External CSS, Internal CSS, dan Inline CSS.
           </div>
-          <li>Penggunaan CSS Selector.</li>
+          <li className="list-content">Penggunaan CSS Selector.</li>
           <div className="paragraph-content">
             CSS Selector adalah pola yang digunakan untuk memilih element, yang
             ingin di styling. Penanda HTML ke dalam CSS. Dapat menggunakan
@@ -75,7 +41,7 @@ const CssPage = () => {
 
         <h3 className="pt-3">Task</h3>
         <ol>
-          <li>
+          <li className="list-content">
             Mengubah tampilan dari file 1.html dan membuat file 2.html kemudian
             mendesain file tersebut.
           </li>
@@ -89,7 +55,12 @@ const CssPage = () => {
         </ol>
 
         <h3 className="pt-3">Link :</h3>
-        <a href="https://github.com/muhamadjaya/tugas-section6-css">CSS</a>
+        <a
+          href="https://github.com/muhamadjaya/tugas-section6-css"
+          className="link-task"
+        >
+          CSS
+        </a>
 
         <h3 className="pt-3">Screenshots :</h3>
         <div className="task-images css-img">

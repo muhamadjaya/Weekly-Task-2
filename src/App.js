@@ -1,14 +1,14 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import GitPage from "./page/GitPage";
-import UiuxPage from "./page/UiuxPage";
-import FigmaPage from "./page/FigmaPage";
-import HtmlPage from "./page/HtmlPage";
-import CssPage from "./page/CssPage";
-import BootstrapPage from "./page/BootstrapPage";
-import JavascriptPage from "./page/JavascriptPage";
-import CleancodePage from "./page/CleancodePage";
+import GitPage from "./pages/GitPage";
+import UiuxPage from "./pages/UiuxPage";
+import FigmaPage from "./pages/FigmaPage";
+import HtmlPage from "./pages/HtmlPage";
+import CssPage from "./pages/CssPage";
+import BootstrapPage from "./pages/BootstrapPage";
+import JavascriptPage from "./pages/JavascriptPage";
+import CleancodePage from "./pages/CleancodePage";
 
 function App() {
   return (

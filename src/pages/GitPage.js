@@ -6,11 +6,15 @@ const GitPage = () => {
   return (
     <>
       <div className="container">
-        <h2>2 Version Control and Branch Management (Git)</h2>
+        <h2 className="head-title">
+          2 Version Control and Branch Management (Git)
+        </h2>
         <h3 className="pt-3">Resume</h3>
         <p>Dalam materi ini, mempelajari:</p>
         <ol>
-          <li>Pengertian dan jenis-jenis Versioning</li>
+          <li className="list-content">
+            Pengertian dan jenis-jenis Versioning
+          </li>
           <div className="paragraph-content">
             Versioning adalah melakukan pengaturan versi atau pelacakan setiap
             perubahan dari setiap code program. Adapun tujuan utamanya yaitu
@@ -19,7 +23,9 @@ const GitPage = () => {
             tim. Didalam membangun setiap project pasti ada sebuah perubahan dan
             koreksi, meskipun itu adalah sebuah project profesional dan besar.
           </div>
-          <li>Pengertian Git dan macam-macam Git command</li>
+          <li className="list-content">
+            Pengertian Git dan macam-macam Git command
+          </li>
           <div className="paragraph-content">
             Adapun version control yang paling populer hingga sekarang adalah
             GIT. GIT merupakan version control system populer yang digunakan
@@ -32,11 +38,11 @@ const GitPage = () => {
             repository lokal untuk mengontrol berbagai perubahan, git status
             untuk mengetahui perubahan apa saja yang terjadi, git add untuk
             memindahkan dari working tree area ke stagging area, git commit
-            untuk memindahkan dari stagging area ke histroy, dan masih banyak
+            untuk memindahkan dari stagging area ke history, dan masih banyak
             command lainnya yang dapat digunakan sesuai dengan kondisi yang
             terjadi.
           </div>
-          <li>Manajemen Branch pada Git</li>
+          <li className="list-content">Manajemen Branch pada Git</li>
           <div className="paragraph-content">
             Dalam git dapat ditambahkan beberapa branch dengan tujuan membuat
             sebuah jalur baru tanpa mengganggu jalur utama, dalam hal ini dapat
@@ -50,7 +56,7 @@ const GitPage = () => {
 
         <h3 className="pt-3">Task</h3>
         <ol>
-          <li>
+          <li className="list-content">
             Membuat repository baru di github dan melakukan manajemen branch
           </li>
           <div className="paragraph-content">
@@ -63,7 +69,10 @@ const GitPage = () => {
         </ol>
 
         <h3 className="pt-3">Link :</h3>
-        <a href="https://github.com/muhamadjaya/tugas-section2-branch">
+        <a
+          href="https://github.com/muhamadjaya/tugas-section2-branch"
+          className="link-task"
+        >
           Version Control and Branch Management (Git)
         </a>
 

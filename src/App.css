@@ -12,6 +12,27 @@
   margin-bottom: 3rem;
 }
 
+.head-title {
+  font-weight: 700;
+}
+
+.list-content {
+  margin-top: 0.75rem;
+  font-size: 1.025rem;
+  font-weight: 700;
+}
+
+.link-task {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.075rem;
+  color: #005193;
+}
+
+.link-task:hover {
+  color: #f05b07;
+}
+
 .task-images {
   width: 100%;
 }
